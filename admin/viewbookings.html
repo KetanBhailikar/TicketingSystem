@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+</head>
+
+<body>
+    <table>
+        <caption>Booking Details</caption>
+        <?php
+            $con = mysqli_connect("localhost","root","","tickets");
+            $a = mysqli_query($con,"select admin_type, area from admin_t where USER_ID ='".$_SESSION['ali']."'");
+            $a = mysqli_fetch_assoc($a);
+            if($a['admin_type'] == "regional"){
+                $a = mysqli_query($con,"select * from ticket_table where MH_LOCATION ='".$a['area']."'");
+            }
+        ?>
+    </table>
+</body>
+
+</html>
