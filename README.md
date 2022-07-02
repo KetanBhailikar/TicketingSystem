@@ -5,4 +5,4 @@ During the pandemic, the crowd at heritage sites can be dangerous and can increa
 To make it easier to book tickets, an online solution can be used.  
 Ticketster helps us book tickets seamlessly. The tickets can be scanned seamlessly at the heritage place for seamless and hasselfree entry.
 
-A working prototype can be explored on [ticketsterproj.000webhostapp.com](http://ticketsterproj.000webhostapp.com/)
+A working prototype can be explored on [ticketsterproj.000webhostapp.com](https://ticketsterproj.000webhostapp.com/)
