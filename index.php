@@ -77,14 +77,14 @@
             <a class="nav-link active" aria-current="page" href = "index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href= <?php echo "'".$v.".html'" ?> ><?php echo $v ?></a>
+            <a class="nav-link" aria-current="page" href= <?php echo "'".$v.".php'" ?> ><?php echo $v ?></a>
           </li>
           <?php
           if(isset($_SESSION['li']) != "yep"){
             echo "
             
             <li class='nav-item'>
-            <a class='nav-link' href='Login2.html'>Register</a>
+            <a class='nav-link' href='Login2.php'>Register</a>
           </li>
             ";
           }

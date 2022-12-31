@@ -9,12 +9,9 @@ $r = $_SESSION['username'];
 
 $orderData = [    
     'receipt'         => 'rcptid_12',    
-    'amount'          => $amt*100, // 39900 rupees in paise
+    'amount'          => $amt*100, // rupees in paise
     'currency'        => 'INR'
 ];
-
-
-
 
 $api = new Api("rzp_test_0cmfOyI8eY3RY9", "UbJBj3bKmuMlvWQESVgzJBeA");
 
